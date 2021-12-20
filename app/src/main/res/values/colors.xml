@@ -3,4 +3,8 @@
     <color name="blue">#2081C3</color>
     <color name="dark_blue">#0B6CAE</color>
     <color name="white">#FFFFFF</color>
+    <color name="grey_divider">#9E9E9E</color>
+    <color name="light_grey_blue_background">#ECEFF1</color>
+    <color name="dark_grey_text">#4A4A4A</color>
+    <color name="light_grey_text">#7E7E7E</color>
 </resources>

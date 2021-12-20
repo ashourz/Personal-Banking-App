@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Home View Fragment
+Displays Recycler Views of Bank Accounts and Card Accounts
+Data is populated through data binding to the recycler views
+ -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.fragments.HomeViewFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fragment_home_layout"
+        android:name="com.veryable.android.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/homeview_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/homeview_toolbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_light"
+                android:background="@color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/home_toolbar_label"
+                android:textColor="@color/dark_grey_text"
+                android:textSize="20sp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/homeview_toolbar">
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_divider" />
+
+            <TextView
+                android:id="@+id/bankSpacerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/light_grey_blue_background"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingVertical="10dp"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical|left"
+                android:text="@string/bank_accounts_recycler_label"
+                android:textColor="@color/dark_grey_text"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_divider" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/bankRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                tools:listitem="@layout/accounts_recycler_item" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_divider" />
+
+            <TextView
+                android:id="@+id/cardSpacerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/light_grey_blue_background"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center_vertical|left"
+                android:paddingVertical="10dp"
+                android:paddingLeft="15dp"
+                android:text="@string/card_accounts_recycler_label"
+                android:textColor="@color/dark_grey_text"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_divider" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/cardRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                tools:listitem="@layout/accounts_recycler_item" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_divider" />
+
+            <View
+                android:id="@+id/bottomSpacerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/light_grey_blue_background"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

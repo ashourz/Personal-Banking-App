@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Veryable Coding Challenge</string>
     <string name="welcome_to_veryable_coding_challenge">Welcome To Veryable Coding Challenge</string>
+    <string name="done_button_label">DONE</string>
+    <string name="home_toolbar_label">ACCOUNTS</string>
+    <string name="bank_accounts_recycler_label">Bank Accounts</string>
+    <string name="card_accounts_recycler_label">Cards</string>
+    <string name="details_toolbar_label">DETAILS</string>
 </resources>
