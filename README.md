@@ -24,7 +24,9 @@ Personal banking application to view accounts and account details hosted on clou
   - NavGraph
   - TypeSafeArgs
   - Databinding
-- Jetpack Lifecycle with LiveData
+- Jetpack Lifecycle
+  - LiveData
+  - ViewModel
 - Jetpack Room SQLite Database
 - GSON
 - Retrofit2
