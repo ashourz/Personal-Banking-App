@@ -15,8 +15,26 @@ Personal banking application to view accounts and account details hosted on clou
   - Display an arrow on the right side.
   
 # Key Libraries
+- Kotlin
+  - Coroutines
+  - Flow
+- XML View UI
+- Material Design
+- Jetpack Navigation 
+  - NavGraph
+  - TypeSafeArgs
+  - Databinding
+- Jetpack Lifecycle with LiveData
+- Jetpack Room SQLite Database
+- GSON
+- Retrofit2
+- OkHttp
 
 # Key Features
+- MVVM Applicaiton Architecture
+- Rest API client pulls account infomration from AWS
+- API response mapping from JSON to Kotlin data class object
+- Mutex object wrapper ensures single operation to local database at a time
 
 # Screenshots
 <p float="left">
