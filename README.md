@@ -38,8 +38,8 @@ Personal banking application to view accounts and account details hosted on clou
 
 # Screenshots
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/39238415/224742460-19b2e456-c1cd-4c27-9042-e0b48022b58c.png" width="225" />
-  <img src="https://user-images.githubusercontent.com/39238415/224742494-1e28ba79-7b43-4580-b30a-117791080db0.png" width="225" /> 
-  <img src="https://user-images.githubusercontent.com/39238415/224742525-857679d6-85e9-4443-9b88-ceacf21eeeed.png" width="225" />
-  <img src="https://user-images.githubusercontent.com/39238415/224742552-f078824e-4bd4-4a74-b139-7a1d57f28812.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/39238415/224742460-19b2e456-c1cd-4c27-9042-e0b48022b58c.png" width="200" />
+  <img src="https://user-images.githubusercontent.com/39238415/224742494-1e28ba79-7b43-4580-b30a-117791080db0.png" width="200" /> 
+  <img src="https://user-images.githubusercontent.com/39238415/224742525-857679d6-85e9-4443-9b88-ceacf21eeeed.png" width="200" />
+  <img src="https://user-images.githubusercontent.com/39238415/224742552-f078824e-4bd4-4a74-b139-7a1d57f28812.png" width="200" />
 </p>
