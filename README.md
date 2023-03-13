@@ -1,5 +1,5 @@
 # My Personal Banking App
-Personal banking application to view accounts and account details hosted on cloud.
+Personal banking application for Android written in Kotlin.
 
 # Project Assignment
 - Build an app where you can see the list of your banking and card accounts (Accounts View). Please use the attached base project to add your code.
