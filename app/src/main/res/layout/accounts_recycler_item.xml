@@ -12,7 +12,6 @@ Account Icon is programmatically updated in RecyclerViewAdapter.onBindViewHolder
         <variable
             name="binding_recyclerItemTitle"
             type="String" />
-
         <variable
             name="binding_recyclerItemDesc"
             type="String" />

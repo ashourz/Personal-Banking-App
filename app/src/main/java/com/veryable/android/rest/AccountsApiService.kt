@@ -41,6 +41,7 @@ class AccountsApiService() {
             .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))
             .build()
     }
+
     private val accountsApiInterface: AccountApiInterface = getRetrofitInstance().create(
         AccountApiInterface::class.java
     )
